@@ -40,68 +40,14 @@ dialogue datasets such as MultiWOZ and SGD. After instruction clustering, the de
 
 ## Experimental Results
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image Carousel</title>
-  <!-- 引入 Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <!-- 第一张图像 -->
-    <div class="carousel-item active">
-      <img src="assets/effects-turn-tool.png" class="d-block w-100" alt="Effects Turn Tool">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Effects Turn Tool</h5>
-        <p>这是 Effects Turn Tool 的描述</p>
-      </div>
-    </div>
-    <!-- 第二张图像 -->
-    <div class="carousel-item">
-      <img src="assets/error-types.png" class="d-block w-100" alt="Error Types">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Error Types</h5>
-        <p>这是 Error Types 的描述</p>
-      </div>
-    </div>
-    <!-- 第三张图像 -->
-    <div class="carousel-item">
-      <img src="assets/hard-sm_mm.png" class="d-block w-100" alt="Hard SM MM">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Hard SM MM</h5>
-        <p>这是 Hard SM MM 的描述</p>
-      </div>
-    </div>
-    <!-- 第四张图像 -->
-    <div class="carousel-item">
-      <img src="assets/scaling-law.png" class="d-block w-100" alt="Scaling Law">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Scaling Law</h5>
-        <p>这是 Scaling Law 的描述</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- 左右切换按钮 -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<!-- 引入 Bootstrap JS 和依赖 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+![image](assets/normal-ss_ms.png)
+![image](assets/normal-sm_mm.png)
+![image](assets/hard.png)
+![image](assets/hard-ss_ms.png)
+![image](assets/hard-sm_mm.png)
+![image](assets/effects-turn-tool.png)
+![image](assets/scaling-law.png)
+![image](assets/error-types.png)
 
 
 ## Star History
