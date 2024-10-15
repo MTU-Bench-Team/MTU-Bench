@@ -1,5 +1,6 @@
-<div style="text-align: center;">
-    <img src="assets/mtubench-logo.png" alt="MTU-Bench Logo" width="70"/>
+
+<div align= "center">
+  <img src="assets/mtubench-logo.png" alt="MTU-Bench Logo" width="70"/>
     <h1>MTU-Bench</h1>
 </div>
 
@@ -38,6 +39,17 @@ We sample **real-world** user instructions from various existing open-source
 dialogue datasets such as MultiWOZ and SGD. After instruction clustering, the detected user intents and slot filling are leveraged to synthesize API calls using GPT-4. The synthesized data includes the thoughts, the actions (i.e., tool names), the action parameters, and the observations (i.e., the generated API execution results). This data forms our MTU-Bench dataset. Following meticulous quality verification by GPT-4 and manual check, we split the MTU-Bench data into training and testing splits, involving **54,798 dialogues** in total, as well as **136 tools**. In our **MTU-Eval**, we propose a series of fine-grained metrics such as **tool selection accuracy**, **parameter selection accuracy**, **success rate**, **turn success rate**, **task process rate**, **tool number accuracy**, **tool order accuracy**, etc., to evaluate the tool-use abilities in a comprehensive manner, where the GPT API costs are **not** needed for evaluation. Moreover, we also pick out a **hard subset** from the test split to include more complex tool-use scenarios such as easily confusable tools, nonsensical or noisy tools, tool parameter updating, etc.
 
 ## Experimental Results
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
+  <!-- 引入 Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
 
 <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -85,6 +97,11 @@ dialogue datasets such as MultiWOZ and SGD. After instruction clustering, the de
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!-- 引入 Bootstrap JS 和依赖 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 
 
 ## Star History
