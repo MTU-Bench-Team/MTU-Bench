@@ -11,6 +11,8 @@ MTU-Bench: A Multi-Granularity Tool-Use Benchmark for Large Language Models
 <p align="center">  
 <a href="">Paper (Coming Soon)</a>; 
 <a href="">Data (Coming Soon)</a>
+<a href="https://github.com/MTU-Bench-Team/MTU-Bench">Github</a>
+<a href="">Homepage</a>
 </p>
 
 ![](assets/mtubench-framework.png)
@@ -40,11 +42,18 @@ dialogue datasets such as MultiWOZ and SGD. After instruction clustering, the de
 
 ## Experimental Results
 
+### Results on Normal Set
+
 ![image](assets/normal-ss_ms.png)
 ![image](assets/normal-sm_mm.png)
+
+### Results on Hard Set
 ![image](assets/hard.png)
 ![image](assets/hard-ss_ms.png)
 ![image](assets/hard-sm_mm.png)
+
+### Ablation Studies and Analysis
+
 ![image](assets/effects-turn-tool.png)
 ![image](assets/scaling-law.png)
 ![image](assets/error-types.png)
