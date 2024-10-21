@@ -9,7 +9,7 @@ MTU-Bench: A Multi-Granularity Tool-Use Benchmark for Large Language Models
 </p>
 
 <p align="center">  
-<a href="">Paper (Coming Soon)</a>; 
+<a href="https://arxiv.org/abs/2410.11710">Paper</a>; 
 <a href="">Data (Coming Soon)</a>; 
 <a href="https://github.com/MTU-Bench-Team/MTU-Bench">Github</a>; 
 <a href="">Homepage</a>
