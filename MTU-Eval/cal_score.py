@@ -1,6 +1,5 @@
 from util import *
 
-
 def score(predictions, references, ids, splits) -> dict:
     data_all = split_data(predictions, references, ids, splits)
     # S-S
@@ -25,6 +24,7 @@ def score(predictions, references, ids, splits) -> dict:
     )
 
     # S-M
+    data = data_all['S-M']
     num_acc_scores, order_acc_scores = [], []
     for prediction, reference, item_id in zip(data["predictions"], data["references"], data["ids"]):
         target_action = reference
@@ -42,6 +42,7 @@ def score(predictions, references, ids, splits) -> dict:
     )
 
     # M-S
+    data = data_all['M-S']
     tool_correct_cnt, param_correct_cnt, is_correct = 0, 0, False
     success_dialog = {}
     for prediction, reference, item_id in zip(data["predictions"], data["references"], data["ids"]):
@@ -92,7 +93,7 @@ def score(predictions, references, ids, splits) -> dict:
     )
 
     # M-M
-    tool_correct_cnt, param_correct_cnt, is_correct = 0, 0, False
+    data = data_all['M-M']
     success_dialog, num_accs, order_accs = {}, [], []
     for prediction, reference, item_id in zip(data["predictions"], data["references"], data["ids"]):
         diag_id, round_idx = item_id.rsplit("_", 1)[0], item_id.rsplit("_", 1)[1]
