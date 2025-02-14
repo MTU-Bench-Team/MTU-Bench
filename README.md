@@ -22,6 +22,9 @@ MTU-Bench: A Multi-Granularity Tool-Use Benchmark for Large Language Models
 <a href="https://mtu-bench.github.io">
   <img src="https://img.shields.io/badge/Homepage-MTU--Bench-purple" alt="Homepage MTU-Bench Badge">
 </a>
+  <a href="">
+                <img src="https://img.shields.io/badge/OpenCompass-(Coming%20Soon)-blue" alt="OpenCompass MTU-Bench Badge">
+              </a>
 </p>
 
 ![](assets/mtubench-framework.png)
