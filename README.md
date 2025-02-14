@@ -8,11 +8,20 @@
 MTU-Bench: A Multi-Granularity Tool-Use Benchmark for Large Language Models
 </p>
 
-<p align="center">  
-<a href="https://arxiv.org/abs/2410.11710">Paper</a>; 
-<a href="">Data (Coming Soon)</a>; 
-<a href="https://github.com/MTU-Bench-Team/MTU-Bench">Github</a>; 
-<a href="">Homepage</a>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2410.11710">
+  <img src="https://img.shields.io/badge/Paper-arXiv-red" alt="Paper Arxiv Badge">
+</a>
+<a href="https://huggingface.co/datasets/wpei/MTU-Bench">
+  <img src="https://img.shields.io/badge/Hugging%20Face-MTU--Bench-yellow" alt="Hugging Face MTU-Bench Badge">
+</a>
+<a href="https://github.com/MTU-Bench-Team/MTU-Bench">
+  <img src="https://img.shields.io/badge/Github-MTU--Bench-black" alt="Github MTU-Bench Badge">
+</a>
+<a href="https://mtu-bench.github.io">
+  <img src="https://img.shields.io/badge/Homepage-MTU--Bench-purple" alt="Homepage MTU-Bench Badge">
+</a>
 </p>
 
 ![](assets/mtubench-framework.png)
@@ -68,5 +77,10 @@ dialogue datasets such as MultiWOZ and SGD. After instruction clustering, the de
 Feel free to cite us if you like our work.
 
 ```bibtex
-{coming soon}
+@inproceedings{Wang2024mtubench,
+  title  = {MTU-Bench: A Multi-granularity Tool-Use Benchmark for Large Language Models},
+  author = {Pei Wang and Yanan Wu and Noah Wang and Jiaheng Liu and Xiaoshuai Song and Z.Y. Peng and Ken Deng and Chenchen Zhang and JiakaiWang and Junran Peng and Ge Zhang and Hangyu Guo and Zhaoxiang Zhang and Wenbo Su and Bo Zheng},
+  year   = {2024},
+  url    = {https://openreview.net/forum?id=6guG2OlXsr&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)}
+}
 ```
